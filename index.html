@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- REMIXICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+
+    <title>Parallax responsive landing page</title>
+</head>
+<body>
+    <!-- HEADER -->
+        <header class="header">
+            <nav class="nav bd-grid">
+                <a href="#" class="nav-logo">Mountain</a>
+
+                <div class="nav-toggle" id="nav-toggle">
+                    <i class="ri-menu-3-fill"></i>
+                </div>
+
+                <div class="nav-menu" id="nav-menu">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Explore</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Aventure</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Discover</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--<div class="nav-toggle" id="nav-toggle">
+                    <i class="ri-menu-3-fill"></i>
+                </div>
+                <div class="nav-close" id="nav-close">
+                    <i class="ri-close-fill"></i>
+                </div>-->
+            </nav>
+        </header>
+
+    <!-- HOME -->
+        <div class="home">
+            <div class="parallax home-parallax home-parallax-img1" data-rellax-speed="-9"></div>    
+            <div class="parallax home-parallax home-parallax-img2" data-rellax-speed="-7"></div>    
+            <div class="parallax home-parallax home-parallax-img3" data-rellax-speed="-6"></div>    
+            <div class="parallax home-parallax home-parallax-img4" data-rellax-speed="-3"></div>    
+               
+        </div>
+        <h1 class="parallax home-title" data-rellax-speed="-6">
+            Mountain
+        </h1>
+        <span class="parallax home-subtitle" data-rellax-speed="-4">
+            Mountain Explore
+        </span>
+        <div class="home-scroll">
+            <a href="#section">
+                <i class="ri-mouse-line"></i>
+            </a>
+        </div>
+
+    <!-- SECTION -->
+        <section class="section" id="section">
+            <div class="section-container">
+                <div class="section-data">
+                    <h2 class="section-title">
+                        Scaling Mountains
+                    </h2>
+                    <p class="section-text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi maxime quam, accusamus fuga corporis, cupiditate, aliquam ad aliquid dolores minima atque! Maxime labore mollitia suscipit dolore, velit voluptatum aliquam esse!
+                    </p>
+                </div>
+                <img src="img/imgm1.jpg" alt="image" class="section-img">
+            </div>
+        </section>
+
+
+    <!-- RELLAX JS -->
+        <script src="rellax.min.js"></script>
+
+    <!-- GSAP -->
+        <script src="gsap.min.js"></script>
+
+    <!-- SCROLL REVEAL -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- MAIN JS -->
+    <script src="main.js"></script>
+</body>
+</html>
